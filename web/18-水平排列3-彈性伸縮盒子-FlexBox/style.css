@@ -29,17 +29,20 @@ body {
 	background: #ce7fc9;
 	padding: 15px;
 	display: flex;
+	justify-content: center;
 }
 
 /* .box div{
 	float: left;
 } */
 .box div{
-width: 400px;
+width: 350px;
+margin: 10px;
 }
 
 .box .b1 {
 	background-color: #fb6464;
+	
 }
 
 .box .b2 {
