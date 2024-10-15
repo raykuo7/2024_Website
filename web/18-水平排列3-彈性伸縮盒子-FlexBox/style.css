@@ -27,17 +27,21 @@ body {
 
 .box{
 	background: #ce7fc9;
+	height: 2000px;
 	padding: 15px;
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+
 }
 
 /* .box div{
 	float: left;
 } */
 .box div{
-width: 350px;
-margin: 10px;
+width: calc(100%/3);
+
 }
 
 .box .b1 {
@@ -51,4 +55,17 @@ margin: 10px;
 
 .box .b3 {
 	background-color: #57aaea;
+}
+
+.box .b4 {
+	background-color: #5578a6;
+
+}
+
+.box .b5 {
+	background-color: #cde671;
+}
+
+.box .b6 {
+	background-color: #d39aba;
 }
