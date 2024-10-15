@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    /* box-sizing: border-box; */
+    background-image: url(./banner.jpg);
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+    /* padding-top: 180px;
+    padding-left: 650px; */
+}
+
+h1 {
+    background-color: #f826265b;
+    padding-top: 210px;
+    padding-left: 650px;
+}

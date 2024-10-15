@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #CCC;
+	font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 10px;
+	font-family: "Jacquarda Bastarda 9", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: '3ddumb';
+	src: url(./3dumb/3Dumb.ttf);
+	
+}
+h3{
+	ind
+	font-family: '3ddumb';
+}
+div{
+	font-size: 20px;
+		text-align: center;
+		margin: 3px;
+		font-family: "Shadows Into Light", cursive, sans-serif;
+			font-weight: 400;
+			font-style: normal;
+		}
+
+.wrapper {
+	background-color: #FFF;
+	width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 20px;
+}
+
+.box {
+	width: 30%;
+	padding: 20px;
+	box-sizing: border-box;
+	border: #333 3px solid;
+	border-radius: 20px;
+}
+
+/*==============================*/
+.box1 {
+	background-color: #F90;
+}
+
+/*==============================*/
+.box2 {
+	background-color: #9C0;
+}
+
+/*==============================*/
+.box3 {
+	background-color: #09F;
+}
+
+.box1 b{
+	font-family: "Entypo";
+	font-weight: normal;
+	font-size: 50px;
+	vertical-align: middle;
+	margin: 15px;
+}
+
+.box2 li{
+	list-style: none;;
+}
+.box2 li b{
+	font-family: "Entypo";
+	font-weight: normal;
+	font-size: 50px;
+	vertical-align: middle;
+	margin: 15px;
+}
+/*======字型嵌入======*/
+@font-face {
+	font-family: 'Entypo';
+	src: url('./Entypo-webfont.ttf');
+	
+}
+

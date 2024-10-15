@@ -1,0 +1,40 @@
+/* @import url("reset.css"); */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+    background-image: url(./banner.jpg);
+    width: 1200px;
+    height: 350px;
+    position: relative;
+    margin: 0 auto;
+    /* margin: 0 auto;
+    padding-left:650px ;
+    padding-top: 125px;
+    padding-right: 100px;
+} */
+
+h1 {
+    background-color: #22a10f3b;
+    position: absolute;
+    top: 120px;
+    left: 625px;
+    /* padding-left: 650px;
+    padding-top: 125px; */
+}
+
+p {
+    background-color: #d03a3a9e;
+    position: absolute;
+    width: 450px;
+    left: 650px;
+    top: 170px;
+    /* padding-left: 645px;
+    padding-right: 100px;
+     */
+     
+}

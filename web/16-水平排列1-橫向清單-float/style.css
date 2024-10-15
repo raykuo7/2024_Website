@@ -1,0 +1,35 @@
+ul {
+	padding-left: 0;
+}
+
+li {
+	list-style-type: none;
+
+}
+
+li a {
+	display: block;
+	width: 200px;
+	height: 50px;
+	background-color: #690;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+	line-height: 50px;
+	margin-bottom: 10px;
+	float: left;
+	/* position: absolute; */
+	margin-left: 5px;
+	z-index: 1;
+}
+
+p {
+
+	position: absolute;
+	z-index: 0;
+}
+
+li a:hover {
+	background-color: #06C;
+	color: #FF6;
+}

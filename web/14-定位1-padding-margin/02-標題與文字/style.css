@@ -1,0 +1,31 @@
+/* @import url("reset.css"); */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+    background-image: url(./banner.jpg);
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+    padding-left:650px ;
+    padding-top: 125px;
+    padding-right: 100px;
+}
+
+h1 {
+    background-color: #22a10f3b;
+    /* padding-left: 650px;
+    padding-top: 125px; */
+}
+
+p {
+    background-color: #d03a3a9e;
+    /* padding-left: 645px;
+    padding-right: 100px;
+     */
+     
+}

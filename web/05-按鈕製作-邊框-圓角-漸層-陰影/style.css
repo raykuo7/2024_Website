@@ -1,0 +1,45 @@
+a {
+    font-size: 45px;
+    display: block;
+    height: 90px;
+    width: 250px;
+    color: darkgreen;
+    /* background-color: chocolate; */
+    /* background: linear-gradient(150deg, #f3e2c7 0%, #b68d4c 36%, #b68d4c 47%, #b68d4c 70%, #b68d4c 76%, #e9d4b3 100%); */
+
+    background-image: radial-gradient(#f3e2c7 0%,#b68d4c 36%,#b68d4c 47%,#b68d4c 70%,#b68d4c 76%,#e9d4b3 100%);
+
+    text-align: center;
+
+    text-decoration: none;
+    line-height: 90px;
+    border: #0a0324 5px solid;
+    border-radius: 0 0 50% 50%;
+    text-shadow: 3px -3px rgba(203, 147, 203, 0.986);
+
+
+    box-shadow: 8px 5px 3px #4f2a02d3, 8px 5px 4px rgb(8, 80, 169) inset, 10px 8px 5px rgb(235, 14, 180) inset;
+    /* 可以好幾層，越後面月下層  */
+
+
+}
+
+a:hover {
+    color: black;
+    background-color: #8976cd;
+    border: #0b179b9d 3px dashed;
+    vertical-align: middle;
+    border-left: tomato 5px solid;
+    border-top: tomato 5px solid;
+    border-bottom: rgba(255, 99, 71, 0.504) 5px solid;
+    border-right: rgba(255, 99, 71, 0.504) 5px solid;
+    /* border-radius: 0 0  50% 50%; */
+    border-radius: 50px 0 / 90px 0;
+    /* background-image: linear-gradient(210deg, rgb(211, 103, 103) 0%, blue 100%); */
+    background-image: repeating-linear-gradient(210deg, rgb(211, 103, 103) 20px, blue 40px);
+}
+
+body {
+    background-image: url(./0.webp);
+    background-attachment: fixed;
+}
