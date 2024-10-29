@@ -41,8 +41,8 @@ width: 1200px;
 }
 .content{
     padding: 10px;
+    
     display: flex;
-    flex-wrap: wrap;
     
 }
 .content h3{
@@ -51,11 +51,9 @@ width: 1200px;
 .content p{
     margin: 0 0 10px 0;
 }
-.content div{
+.content .imgg{
     
-    position: relative;
-    right: -600px;
-    top: -800px;
+    float: right;
 
 }
 .footer{
