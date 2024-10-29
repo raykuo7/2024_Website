@@ -19,7 +19,7 @@
 		transform: perspective(100px) rotateY(0deg);
 	}
 	100%{
-		top:800px;
+		top:1600px;
 		transform: perspective(100px) rotate(720deg);
 	}
 }
