@@ -49,14 +49,26 @@ width: 1200px;
     margin-bottom: 10px;
 }
 .content p{
-    margin: 0 0 10px 0;
+    display: block;
+    margin: 0 0 20px 0;
 }
 .content .imgg{
-    
+    background-color: #fff;
     float: right;
-
+    margin: 15px;
 }
 .footer{
-    
-    background-color: #fff;text-align: center;
+    display: flex;
+    height: 50px;
+    background-color: #fff;
+    /* background-color: #fff;text-align: center; */
+}
+.footer{
+    display: flex;
+}
+.footer h3 {
+    float: left;
+}
+.footer h5 {
+    float: right;
 }
