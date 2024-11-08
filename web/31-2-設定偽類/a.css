@@ -14,28 +14,6 @@ body{
     padding: 20px;
 }
 
-/* h1:first-child{
-    color:red
-} */
-
-
-/* .box1 h1:first-child{
-    color: red;
-} */
-
-/* .box1 h2:nth-child(3){
-    color: red;
-} */
-
-/* h2:first-of-type{
-    color: red;
-} */
-
-/* .box2 p:nth-child(4){
-    color: red;
-} */
-
-
-p:last-child{
-    color: red;
+body:nth-child(2){
+    background-color: #ff0101;
 }

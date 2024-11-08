@@ -1,0 +1,4 @@
+.productbox{
+    display: flex;
+    flex-wrap: wrap;
+}
