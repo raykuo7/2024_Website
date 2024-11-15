@@ -2,3 +2,12 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.productbox .product:hover{
+    background-color: #815d09;
+}
+                
+.productbox .product{
+    transition: all 1s;
+}
+

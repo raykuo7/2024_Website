@@ -1,36 +1,279 @@
-*{}
-html,body{}
-.header{}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    font-size: 18px;
+}
+.header{
+    background-color: #ef7070;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
 .header h1{}
 .header ul{}
-.header li{}
+
+.header li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+
 .header li a{}
 .header li a:hover{}
 
 .banner{}
-.banner img{}
+.banner img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
 
-.office{}
-.office .ofbox{}
-.office .ofbox img{}
+.office{
+    background-color: #9E7A7A;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+
+}
+.office .ofbox{
+    background-color: #6f5656;
+    width: 22%;
+    margin: 1%;
+    padding: 10px;
+    text-align: center;
+}
+.office .ofbox img{
+    max-width: 100%;
+    height: auto;
+}
 .office .ofbox p{}
 
-.ad{}
-.adbox{}
-.ad img{}
+.ad{
+    background-color: #CA7A2C;
+    padding: 20px;
+    display: flex;
+}
+.adbox{
+    background-color: #eea255;
+    width: 25%;
+}
+.ad img{
+    width: 100%;
+    height: auto;
+    vertical-align: auto;
+}
 
-.nav{}
-.nav .navbox{}
-.nav .navbox p{}
+.nav{
+    background-color:#CA7A2C;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.nav .navbox{
+    background-color: #e7a25d;
+    width: 12%;
+    margin: 1%;
+    padding: 20px;
+}
+.nav .navbox p{
+    margin-bottom: 8px;
+}
 .nav .navbox ul{}
-.nav .navbox li{}
-.nav .navbox li a{}
+.nav .navbox li{
+    list-style: none;
+}
+.nav .navbox li a{
+    margin-bottom: 5px;
+}
 .nav .navbox li a:hover{}
 
-.footer{}
+.footer{
+    background-color: #4A593D;
+    color: #bde29d;
+    text-align: center;
+}
 .footer h2{}
 .footer p{}
 
 
+/* ============TABLET CSS========= */
+@media screen and (max-width:1200px) and (min-width:769px){
+    
+    
+        .header h1 {}
+    
+        .header ul {}
+    
+        .header li {
+        }
+    
+        .header li a {}
+    
+        .header li a:hover {}
+    
+        .banner {}
+    
+        .banner img {
+        }
+    
+        .office {
+            flex-wrap: wrap;
+    
+        }
+    
+        .office .ofbox {
+            width:44%;
+        }
+    
+        .office .ofbox img {
+            max-width: 100%;
+            height: auto;
+        }
+    
+        .office .ofbox p {}
+    
+        .ad {
+            background-color: #CA7A2C;
+            padding: 20px;
+            display: flex;
+        }
+    
+        .adbox {
+            background-color: #eea255;
+            width: 25%;
+        }
+    
+        .ad img {
+            width: 100%;
+            height: auto;
+            vertical-align: auto;
+        }
+    
+        .nav {
+            background-color: #CA7A2C;
+            display: flex;
+            padding: 20px;
+            justify-content: center;
+        }
+    
+        .nav .navbox {
+            background-color: #e7a25d;
+            width: 12%;
+            margin: 1%;
+            padding: 20px;
+        }
+    
+        .nav .navbox p {
+            margin-bottom: 8px;
+        }
+    
+        .nav .navbox ul {}
+    
+        .nav .navbox li {
+            list-style: none;
+        }
+    
+        .nav .navbox li a {
+            margin-bottom: 5px;
+        }
+    
+        .nav .navbox li a:hover {}
+    
+        .footer {
+            
+        }
+    
+        .footer h2 {}
+    
+        .footer p {}
+}
+
+@media screen and (max-width:768px)  {
 
 
+    .header h1 {
+
+    }
+
+    .header ul {
+        display: none;
+    }
+
+    .header li {}
+
+    .header li a {}
+
+    .header li a:hover {}
+
+    .banner {}
+
+    .banner img {}
+
+    .office {
+        flex-wrap: wrap;
+
+    }
+
+    .office .ofbox {
+        width: 88%;
+    }
+
+    .office .ofbox img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .office .ofbox p {}
+
+    .ad {
+        flex-wrap: wrap
+    }
+
+    .adbox {
+        width: 100%;
+    }
+
+    .ad img {
+        width: 100%;
+        height: auto;
+        vertical-align: auto;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .nav .navbox {
+        width: 48%;
+        
+    }
+
+    .nav .navbox p {
+        margin-bottom: 8px;
+    }
+
+    .nav .navbox ul {}
+
+    .nav .navbox li {
+        list-style: none;
+    }
+
+    .nav .navbox li a {
+        margin-bottom: 5px;
+    }
+
+    .nav .navbox li a:hover {}
+
+    .footer {}
+
+    .footer h2 {}
+
+    .footer p {}
+}
