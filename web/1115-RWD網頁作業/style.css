@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.header ul{
+    display: flex;
+    margin-top: 40px;
+    margin-right: 120px;
+}
+
+.header ul li{
+    margin: 20px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #252525;
+    font-size: 22px;
+}
+.header .img{
+    margin: 20px 120px;
+}
+
+.banner{
+    
+}
+.banner img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+.banner .topping{
+    position: absolute;
+    top: 240px;
+    left: 120px;
+}
+
+.banner .topping .submit{
+    display: flex;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav .f1{
+    background-color: rgb(254, 100, 0);
+}
+.nav .f2 {
+    background-color: rgb(241, 49, 26);
+}
+.nav .f3 {
+    background-color: rgb(42, 45, 52);
+}
+.nav .f4 {
+    background-color: rgb(85, 92, 102);
+}
+.content{
+    background-color: rgb(231, 231, 231);
+}
+.content h1{
+    color: rgb(252, 102, 41);
+}
+.content a{
+    background: rgb(242,57,29);
+}
+.ads{
+    width:80% ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ads .adbox{
+    height: 500px;
+    width: 500px;
+}
+
+.ex .in{
+    background-image: url(./images/handbg.jpg);
+    background-size: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.ex .in .exbox{
+    width: 21%;
+    height: 43%;
+    background-color: #fff;
+    margin-right: 1%;
+    margin-top:21%;
+
+}
+.footer{
+    background-color: rgb(51, 51, 51);
+    color: aliceblue;
+    text-align: center;
+    height: 110px;
+    padding-top: 20px;
+}
