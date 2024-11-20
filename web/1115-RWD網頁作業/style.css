@@ -1,117 +1,198 @@
-*{
+* {
     padding: 0;
     margin: 0;
     list-style: none;
     box-sizing: border-box;
 }
 
-.wrapper{
+.wrapper {
     width: 100%;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
 
 }
-.header ul{
+
+.header ul {
     display: flex;
     margin-top: 40px;
     margin-right: 120px;
 }
 
-.header ul li{
+.header ul li {
     margin: 20px;
 }
-.header ul li a{
+
+.header ul li a {
     text-decoration: none;
     color: #252525;
     font-size: 22px;
 }
-.header .img{
+
+.header .img {
     margin: 20px 120px;
 }
 
-.banner{
-    
-}
-.banner img{
+.banner {}
+
+.banner img {
     width: 100%;
     height: auto;
     vertical-align: bottom;
 }
-.banner .topping{
-    width: 22%;
+
+.banner .topping {
+    width: 530px;
     position: absolute;
     top: 240px;
     left: 120px;
 }
-.banner .topping  h1{
+
+.banner .topping h1 {
     width: 100%;
     font-size: 550%;
 }
-.banner .topping  h4{
+
+.banner .topping h4 {
     font-size: 100%;
 }
 
-.banner .topping .submit{
+.banner .topping .submit {
     display: flex;
 }
 
-.nav{
+.nav {
+
+    height: 500px;
     display: flex;
+    justify-content: center;
 }
 
-.nav .f1{
+.nav .fbox {
+    display: flex;
+    height: 89%;
+    width: 75%;
+    margin: auto;
+}
+
+.nav .f {
+    padding: 2% 6% 3% 2%;
+    color: aliceblue;
+
+}
+
+.nav .f .text h1 {
+    font-size: 450%;
+}
+
+.nav .f .text h3 {
+    font-size: 180%;
+    display: block;
+    margin: 5% 0;
+}
+
+.nav .f .text h5 {
+    display: block;
+    margin: 8% 0;
+    font-size: 120%;
+    font-weight: normal;
+    line-height: 140%;
+    padding-right: 10%;
+}
+.nav .f .button{
+    margin-top: 20%;
+}
+.nav .f1 {
     background-color: rgb(254, 100, 0);
+
 }
+
 .nav .f2 {
     background-color: rgb(241, 49, 26);
 }
+
 .nav .f3 {
     background-color: rgb(42, 45, 52);
 }
+
 .nav .f4 {
     background-color: rgb(85, 92, 102);
 }
-.content{
+
+.content {
     background-color: rgb(231, 231, 231);
+    height: 530px;
+    padding-top: 5%;
 }
-.content h1{
+
+.content h1 {
+    display: block;
+    text-align: center;
+    font-size: 490%;
+
     color: rgb(252, 102, 41);
 }
-.content a{
-    background: rgb(242,57,29);
+
+.content h3 {
+    display: block;
+    text-align: center;
+    width: 45%;
+    font-size: 150%;
+    margin: auto;
+    line-height: 120%;
+    margin-top: 1%;
 }
-.ads{
-    width:80% ;
+
+.content a {
+    margin: auto;
+    margin-top: 2%;
+    width: 11.5%;
+    height: 11%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    background: rgb(242, 57, 29);
+    text-decoration: none;
+    padding: auto;
+    line-height: 300%;
+    color: aliceblue;
+}
+
+.ads {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
 }
-.ads .adbox{
+
+.ads .adbox {
+    background-color: rgb(246, 246, 246);
     height: 500px;
     width: 500px;
 }
 
-.ex .in{
+.ex .in {
     background-image: url(./images/handbg.jpg);
     background-size: 100%;
     height: 900px;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    
-    
+
+
 }
-.ex .in .exbox{
+
+.ex .in .exbox {
     width: 21%;
     height: 43%;
     background-color: #fff;
     margin-right: 1%;
-    margin-top:21%;
+    margin-top: 21%;
 
 }
-.footer{
+
+.footer {
     background-color: rgb(51, 51, 51);
     color: aliceblue;
     text-align: center;
