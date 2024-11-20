@@ -41,9 +41,17 @@
     vertical-align: bottom;
 }
 .banner .topping{
+    width: 22%;
     position: absolute;
     top: 240px;
     left: 120px;
+}
+.banner .topping  h1{
+    width: 100%;
+    font-size: 550%;
+}
+.banner .topping  h4{
+    font-size: 100%;
 }
 
 .banner .topping .submit{
