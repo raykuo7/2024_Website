@@ -35,7 +35,9 @@
     margin: 20px 120px;
 }
 
-.banner {}
+.banner {
+    color: aliceblue;
+}
 
 .banner img {
     width: 100%;
@@ -61,11 +63,18 @@
 
 .banner .topping .submit {
     display: flex;
+    background-color: #eaeaea;
+}
+.banner .topping .submit .email a{
+    display: block;
+
+    text-decoration: none;
+    color: #747474;
 }
 
 .nav {
 
-    height: 500px;
+    height: 600px;
     display: flex;
     justify-content: center;
 }
